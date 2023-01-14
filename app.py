@@ -103,6 +103,7 @@ else:
 #Bar graphs for cumulative cases & deaths
 col1, col2 = st.columns(2)
 
+# show total cases
 with col1:
     st.header('Global Situation')
     st.write('<h2 style="text-align:center; font-weight:bold;">' + str(total_cases) + '<br><span style="text-decoration:none; font-weight:normal; font-size:30px">Confirmed Cases</span></h2>', unsafe_allow_html=True)
@@ -114,6 +115,7 @@ with col2:
     
 col3, col4 = st.columns(2)
 
+# show total deaths
 with col3:
     st.write('<h2 style="text-align:center; font-weight:bold;">' + str(total_deaths) + '<br><span style="text-decoration:none; font-weight:normal; font-size:30px">Deaths</span></h2>', unsafe_allow_html=True)
 
