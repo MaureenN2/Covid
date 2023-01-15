@@ -61,7 +61,7 @@ if selection== 'New_cases':
     hover_data = ['Cumulative_cases', 'New_deaths', 'Cumulative_deaths'])
     fig.update_layout(height=550) 
     st.plotly_chart(fig, use_container_width=True, theme='streamlit')
-    st.write('United States has the highestcumulative deaths at 1.07M followed by Brazil at 694K, India 530K, Russia 394K and Mexico 331K')
+    st.write('The first new cases were reported from China. Highest/Most New Cases were observed in January 2022.')
 
 elif selection== 'Cumulative_cases':
     st.header('Covid Cumulative Cases')
